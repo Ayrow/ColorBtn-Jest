@@ -12,6 +12,7 @@ function App() {
         onClick={() => setButtonColor(newButtonColor)}>
         Change to {newButtonColor}
       </button>
+      <input type='checkbox' />
     </div>
   );
 }
